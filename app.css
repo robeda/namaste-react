@@ -6,11 +6,32 @@
 .logo {
     width: 200px;
 }
-.nav-items >ul {
+.nav-items > ul {
     display: flex;
     list-style-type: none;
 }
-.nav-items >ul>li{
+.nav-items > ul > li{
     padding: 10px;
     margin: 10px;
+}
+.res-container {
+    display:flex;
+    flex-wrap: wrap;
+}
+.res-card {
+    margin:5px;
+    padding: 5px;
+    box-shadow: 2px 2px;
+    width: 15rem;
+    height: 20rem;
+}
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+}
+.search {
+    padding: 10px;
+}
+.res-image {
+    width: 100%;
 }
